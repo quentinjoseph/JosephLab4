@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css?family=Pavanam|Quicksand");
+/*font-family: 'Quicksand', sans-serif;
+font-family: 'Pavanam', sans-serif;*/
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1.0; } }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1.0; } }
+
+.blogTitle {
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 72px;
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s; }
+
+.body {
+  width: 100%; }
+
+.line {
+  border: solid 1px black;
+  margin-top: 20px;
+  margin-bottom: -10px; }
+
+.navList li {
+  color: black;
+  list-style-type: none;
+  font-size: 22px; }
+
+.navList li a {
+  color: black; }
+
+.navList li a:visited {
+  color: black; }
+
+.navList li a:hover {
+  font-family: impact;
+  text-decoration: none; }
+
+#boxy2 {
+  display: none; }
+
+#boxy2 {
+  position: fixed;
+  z-index: 9999;
+  padding-right: 4%;
+  background-color: white;
+  border-radius: 15px; }
+
+#boxy {
+  position: fixed;
+  border: solid 2px black;
+  padding-right: 4%;
+  background-color: white;
+  border-radius: 15px; }
+
+@media (max-width: 992px) {
+  .navList li {
+    display: inline;
+    font-size: 16px; }
+  #boxy {
+    display: none; }
+  #boxy2 {
+    display: block; } }
+
+@media (max-width: 390px) {
+  .navList li {
+    display: inline;
+    font-size: 9px; }
+  #boxy {
+    border: none; } }
+
+.news {
+  margin-top: 25px; }
+
+.pic1 {
+  height: 250px;
+  float: left; }
+
+.pic2 {
+  width: 70%; }
+
+.ptitle {
+  font-size: 16px; }
+
+.footer {
+  background-color: #94baf7;
+  border-radius: 20px;
+  margin-top: 25px; }
+
+.footsy li {
+  display: inline;
+  padding: 2%; }
+
+.footsy li a {
+  text-decoration: none; }
+
+.thoughts {
+  display: inline-block;
+  width: 50%; }
